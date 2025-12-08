@@ -1,0 +1,3 @@
+rafal; 2025-12-01 13:16:16; Wyrzucono 6 i 6 po; 10; rzutach.
+rafal; 2025-12-01 13:16:20; Wyrzucono 6 i 6 po; 1; rzutach.
+rafal; 2025-12-01 13:16:39; Wyrzucono 6 i 6 po; 5; rzutach.
