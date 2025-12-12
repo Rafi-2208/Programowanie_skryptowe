@@ -1,0 +1,3 @@
+1: losowe slowa
+2: slowa
+4: slowa

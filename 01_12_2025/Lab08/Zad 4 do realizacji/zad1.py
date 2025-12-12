@@ -17,7 +17,7 @@ import datetime
 import random
 def play(dice1 = 6 , dice2 = 6):
     d1 , d2 , c = 0,0 , 0
-    while dice1 != d1 and dice2 != d2 or dice1 != d2 and dice2 != d1:
+    while dice1 != d1 or dice2 != d2 or dice1 != d2 or dice2 != d1:
         d1 = random.randint(1,6)
         d2 = random.randint(1,6)
         c+=1
@@ -27,7 +27,7 @@ def write_sesion_to_file(player_name , result):
     plik = open(player_name + "_play.txt", 'a')
     czas = str(datetime.datetime.today())[:19]
     plik.write(f"{player_name}; {czas}; Wyrzucono {result[0]} i {result[1]} po; {result[2]}; rzutach.\n")
-
+    plik.close()
 def read_session_file(player_name):
     plik = open(player_name + "_play.txt", 'r')
     dane = plik.readlines()
